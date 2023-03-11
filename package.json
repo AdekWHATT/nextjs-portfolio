@@ -1,11 +1,11 @@
 {
   "private": true,
-  "homepage": "https://AdekWHATT.github.io/adekwhatt",
+  "homepage": "https://adekwhatt.github.io/nextjs-portfolio/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "npm run build && gh-pages -d out"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
