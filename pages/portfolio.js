@@ -1,15 +1,23 @@
-import Header from '../../components/Header/Header';
-import Sites from '../../components/Sites/Sites';
-import Technologies from '../../components/Technologies/Technologies';
-import Footer from '../../components/Footer/Footer';
+import Head from 'next/head';
+import Header from '../components/Header/Header';
+import Sites from '../components/Sites/Sites';
+import Technologies from '../components/Technologies/Technologies';
+import Footer from '../components/Footer/Footer';
 const PortfolioPage = () => {
     return (
-        <div className='Portfolio'>
-            <Header />
-            <Sites />
-            <Technologies />
-            <Footer />
-        </div>
+        <>
+            <Head>
+                <title>
+                    Мои проекты и технологии
+                </title>
+            </Head>
+            <div className='Portfolio'>
+                <Header />
+                <Sites />
+                <Technologies />
+                <Footer />
+            </div>
+        </>
     )
 }
 

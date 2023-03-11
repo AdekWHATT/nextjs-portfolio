@@ -1,84 +1,80 @@
-import React from 'react';
-import './Technologies.css';
-import html from '../../images/techno/html1.svg';
-import css from '../../images/techno/css1.svg';
-import bs from '../../images/techno/bs1.svg';
-import js from '../../images/techno/js1.svg';
-import wp from '../../images/techno/wp2.svg';
-import ps from '../../images/techno/ps1.svg';
-import sass from '../../images/techno/sass1.svg';
-import figma from '../../images/techno/fg1.svg';
-import bitrix from '../../images/techno/bitrix.png';
-import react from '../../images/techno/react.svg';
-import php from '../../images/techno/php.svg';
+import Image from 'next/image';
+import styles from '../../styles/Technologies.module.css';
+
 const Technologies = () => {
     return (
-        <div className='Technologies'>
+        <div className={styles.Technologies}>
             <div className='container'>
-                <h1 className='technologies-title'>Мои инструменты</h1>
-                <div className='techno-container'>
-                    <div className='techno-item'>
-                        <div className='techno-item__img-container'>
-                            <img src={html} alt="HTML5" />
+                <h1 className={styles.technologies_title}>Мои инструменты</h1>
+                <div className={styles.techno_container}>
+                    <div className={styles.techno_item}>
+                        <div className={styles.techno_item__img_container}>
+                            <Image src="/images/techno/html1.svg" width={200} height={150} alt="HTML5" />
                         </div>
                     </div>
 
-                    <div className='techno-item'>
-                        <div className='techno-item__img-container'>
-                            <img src={css} alt="CSS3" />
+                    <div className={styles.techno_item}>
+                        <div className={styles.techno_item__img_container}>
+                            <Image src="/images/techno/css1.svg" width={200} height={150} alt="CSS3" />
                         </div>
                     </div>
 
-                    <div className='techno-item'>
-                        <div className='techno-item__img-container'>
-                            <img src={bs} alt="Bootstrap5" />
+                    <div className={styles.techno_item}>
+                        <div className={styles.techno_item__img_container}>
+                            <Image src="/images/techno/bs1.svg" width={200} height={150} alt="Bootstrap5" />
+
                         </div>
                     </div>
 
-                    <div className='techno-item'>
-                        <div className='techno-item__img-container'>
-                            <img src={js} alt="JavaScript" />
+                    <div className={styles.techno_item}>
+                        <div className={styles.techno_item__img_container}>
+                            <Image src="/images/techno/js1.svg" width={200} height={150} alt="JavaScript" />
+
                         </div>
                     </div>
 
-                    <div className='techno-item'>
-                        <div className='techno-item__img-container'>
-                            <img src={php} alt="PHP" />
+                    <div className={styles.techno_item}>
+                        <div className={styles.techno_item__img_container}>
+                            <Image src="/images/techno/php.svg" width={200} height={150} alt="PHP" />
+
                         </div>
                     </div>
 
-                    <div className='techno-item'>
-                        <div className='techno-item__img-container'>
-                            <img src={react} alt="React" />
+                    <div className={styles.techno_item}>
+                        <div className={styles.techno_item__img_container}>
+                            <Image src="/images/techno/react.svg" width={200} height={150} alt="React" />
                         </div>
                     </div>
 
-                    <div className='techno-item'>
-                        <div className='techno-item__img-container'>
-                            <img src={figma} alt="Figma" />
+                    <div className={styles.techno_item}>
+                        <div className={styles.techno_item__img_container}>
+                            <Image src="/images/techno/fg1.svg" width={200} height={150} alt="Figma" />
                         </div>
                     </div>
 
-                    <div className='techno-item'>
-                        <div className='techno-item__img-container'>
-                            <img src={wp} alt="WordPress" />
+                    <div className={styles.techno_item}>
+                        <div className={styles.techno_item__img_container}>
+                            <Image src="/images/techno/wp2.svg" width={200} height={150} alt="WordPress" />
+
                         </div>
                     </div>
 
-                    <div className='techno-item'>
-                        <div className='techno-item__img-container'>
-                            <img src={ps} alt="PhotoShop" />
+                    <div className={styles.techno_item}>
+                        <div className={styles.techno_item__img_container}>
+                            <Image src="/images/techno/ps1.svg" width={200} height={150} alt="PhotoShop" />
+
                         </div>
                     </div>
-                    <div className='techno-item'>
-                        <div className='techno-item__img-container'>
-                            <img src={sass} alt="SASS" />
+                    <div className={styles.techno_item}>
+                        <div className={styles.techno_item__img_container}>
+                            <Image src="/images/techno/sass1.svg" width={200} height={150} alt="SASS" />
+
                         </div>
                     </div>
 
-                    <div className='techno-item'>
-                        <div className='techno-item__img-container'>
-                            <img src={bitrix} alt="Bitrix" />
+                    <div className={styles.techno_item}>
+                        <div className={styles.techno_item__img_container}>
+                            <Image src="/images/techno/bitrix.png" width={200} height={150} alt="Bitrix" />
                         </div>
                     </div>
                 </div>

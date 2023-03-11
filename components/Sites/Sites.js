@@ -1,50 +1,41 @@
-import React from 'react';
-import './Sites.css';
-import avtoelectrika from '../../images/portfolio/avtoelectrika.jpg';
-import bavlymuka from '../../images/portfolio/bavly-muka.jpg';
-import frbtlt from '../../images/portfolio/frbtlt.jpg';
-import gippokrat16 from '../../images/portfolio/gippokrat16.jpg';
-import kafolat from '../../images/portfolio/kafolat.jpg';
-import ngta from '../../images/portfolio/ngta.jpg';
-import prodservis from '../../images/portfolio/prodservis.jpg';
-import upakovka from '../../images/portfolio/upakovka.jpg';
-
+import Image from 'next/image';
+import styles from '../../styles/Sites.module.css';
 const Sites = () => {
     return (
-        <div className='Sites'>
+        <div className={styles.Sites}>
             <div className='container'>
-                <h1 className='sites-title'>Несколько коммерческих проектов</h1>
-                <div className='site-grid'>
-                    <div className='site-grid-item'>
-                        <img src={avtoelectrika} alt='АвтоЭлектрика' />
+                <h1 className={styles.sites_title}>Несколько коммерческих проектов</h1>
+                <div className={styles.site_grid}>
+                    <div className={styles.site_grid_item}>
+                        <Image src='/images/portfolio/avtoelectrika.jpg' width={500} height={400} alt='АвтоЭлектрика' />
                         <a href='#!'>Автоэлектрика</a>
                     </div>
-                    <div className='site-grid-item'>
-                        <img src={bavlymuka} alt='Бавлы Мука' />
+                    <div className={styles.site_grid_item}>
+                        <Image src="/images/portfolio/bavly-muka.jpg" width={500} height={250} alt='Бавлы Мука' />
                         <a href='#!'>Бавлы Мука</a>
                     </div>
-                    <div className='site-grid-item'>
-                        <img src={frbtlt} alt='Школа Карате' />
+                    <div className={styles.site_grid_item}>
+                        <Image src="/images/portfolio/frbtlt.jpg" width={500} height={250} alt='Школа Карате' />
                         <a href='#!'>Школа Карате</a>
                     </div>
-                    <div className='site-grid-item'>
-                        <img src={gippokrat16} alt='Медицинский центр Гиппократ' />
+                    <div className={styles.site_grid_item}>
+                        <Image src="/images/portfolio/gippokrat16.jpg" width={500} height={250} alt='Медицинский центр Гиппократ' />
                         <a href='#!'>Медицинский центр Гиппократ</a>
                     </div>
-                    <div className='site-grid-item'>
-                        <img src={kafolat} alt='Кафолат Центр' />
+                    <div className={styles.site_grid_item}>
+                        <Image src="/images/portfolio/kafolat.jpg" width={500} height={250} alt='Кафолат Центр' />
                         <a href='#!'>Кафолат Центр</a>
                     </div>
-                    <div className='site-grid-item'>
-                        <img src={ngta} alt='НГТА' />
+                    <div className={styles.site_grid_item}>
+                        <Image src="/images/portfolio/ngta.jpg" width={500} height={250} alt='НГТА' />
                         <a href='#!'>НГТА</a>
                     </div>
-                    <div className='site-grid-item'>
-                        <img src={prodservis} alt='ПродСервис' />
+                    <div className={styles.site_grid_item}>
+                        <Image src="/images/portfolio/prodservis.jpg" width={500} height={250} alt='ПродСервис' />
                         <a href='#!'>ПродСервис</a>
                     </div>
-                    <div className='site-grid-item'>
-                        <img src={upakovka} alt='Упаковка32' />
+                    <div className={styles.site_grid_item}>
+                        <Image src="/images/portfolio/upakovka.jpg" width={500} height={250} alt='Упаковка32' />
                         <a href='#!'>Упаковка32</a>
                     </div>
                 </div>

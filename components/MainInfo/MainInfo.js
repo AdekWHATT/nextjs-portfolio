@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../../styles/MainInfo.module.css';
 import Image from 'next/image';
 const MainInfo = () => {
