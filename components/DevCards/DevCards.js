@@ -14,7 +14,7 @@ const DevCards = () => {
                     </div>
                     <div className={styles.dev_cards__item}>
                         <div className={styles.dev_cards__img_wrapper}>
-                            <Image src="/images/icons/ui.svg" width="100" height="100" alt="Отзывчивая разработка"></Image>
+                            <Image src="/images/icons/ui.svg" width="170" height="75" alt="Отзывчивая разработка"></Image>
                         </div>
                         <span>Отзывчивая разработка</span>
                     </div>

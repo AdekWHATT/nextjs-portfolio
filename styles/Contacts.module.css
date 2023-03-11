@@ -1,4 +1,4 @@
-.contacts-title h1 {
+.contacts_title h1 {
     font-weight: 400;
     font-size: 48px;
     color: var(--text-color);
@@ -6,28 +6,28 @@
     text-transform: uppercase;
 }
 
-.contacts-container {
+.contacts_container {
     display: flex;
     gap: 30px;
 }
 
-.contacts_left-block {
+.contacts_left_block {
     width: 49%;
 }
 
-.contacts_right-block {
+.contacts_right_block {
     width: 49%;
 
 }
 
-.contacts_left-block__title {
+.contacts_left_block__title {
     color: var(--text-color);
     font-size: 24px;
     text-align: center;
     text-transform: uppercase;
 }
 
-table.contacts-table {
+table.contacts_table {
     width: 100%;
     border-spacing: 0;
     height: auto;
@@ -35,60 +35,58 @@ table.contacts-table {
     overflow: hidden;
 }
 
-table.contacts-table,
-table.contacts-table td,
-table.contacts-table th {
+table.contacts_table,
+table.contacts_table td,
+table.contacts_table th {
     border: 1px solid var(--text-color);
     margin-top: 30px;
 }
 
-table.contacts-table td,
-table.contacts-table th {
+table.contacts_table td,
+table.contacts_table th {
     padding: 10px;
     width: 30px;
     height: 35px;
 }
 
-table.contacts-table th {
+table.contacts_table th {
     color: var(--text-color);
     font-weight: normal;
 }
 
-table.contacts-table a {
+table.contacts_table a {
     color: var(--text-color);
     text-decoration: none;
 }
 
-table.contacts-table a:hover {
+table.contacts_table a:hover {
     border-bottom: 1px solid #00C4F0;
 }
 
-.contacts_right-block {
+.contacts_right_block {
     overflow: hidden;
     border-radius: 29px;
 }
 
-.contacts_right-block-img img {
-width: 100%;
-height: 100%;
+.contacts_right_block_img img {
 object-fit: cover;
 }
 
 @media (max-width: 1199px) { 
-    .contacts-container {
+    .contacts_container {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .contacts_left-block{
+    .contacts_left_block{
         width: 100%;
     }
-    .contacts_right-block {
+    .contacts_right_block {
         display: none;
     }
  }
  @media (max-width: 1199px) { 
-    .contacts_left-block__title {
+    .contacts_left_block__title {
         font-size: 20px;
     }
  }
@@ -98,10 +96,10 @@ object-fit: cover;
     }
  }
  @media (max-width: 575px) { 
-    .contacts_left-block__title {
+    .contacts_left_block__title {
         font-size: 14px;
     }
-    table.contacts-table td, table.contacts-table th {
+    table.contacts_table td, table.contacts_table th {
         padding: 5px;
         width: 20px;
         height: 20px;

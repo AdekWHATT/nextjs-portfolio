@@ -42,7 +42,7 @@ const Header = () => {
                                 <Link href="/portfolio">Портфолио</Link>
                             </li>
                             <li
-                                className={`${styles.navbar__list_contacts}${pathname === '/contacts' ? 'active' : ''}`}
+                                className={`${styles.navbar__list_contacts} ${pathname === '/contacts' ? 'active' : ''}`}
                             >
                                 <Link href="/contacts">Контакты</Link>
                                 <ul className={styles.navbar__list_sub_social}>
@@ -74,7 +74,6 @@ const Header = () => {
                         <ul className={styles.mobile_navbar__list}>
                             <li>
                                 <Link href="/">
-
                                     <Image src={home} width="100%"
                                         height="100%" alt="Главная" />
 

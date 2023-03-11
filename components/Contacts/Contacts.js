@@ -1,18 +1,17 @@
-import React from 'react';
-import './Contacts.css';
-import contacts from '../../images/contacts.png';
+import Image from 'next/image';
+import styles from '../../styles/Contacts.module.css';
 const Contacts = () => {
     return (
-        <div className='Contacts'>
+        <div>
             <div className='container'>
-                <div className='contacts-title'>
+                <div className={styles.contacts_title}>
                     <h1>Контакты</h1>
                 </div>
-                <div className='contacts-container'>
-                    <div className='contacts_left-block'>
-                        <div className='contacts_left-block__title'>
+                <div className={styles.contacts_container}>
+                    <div className={styles.contacts_left_block}>
+                        <div className={styles.contacts_left_block__title}>
                             <span>Вы можете связаться со мной любым удобным для Вас способом 24/7</span>
-                            <table className="contacts-table">
+                            <table className={styles.contacts_table}>
                                 <tbody>
                                     <tr>
                                         <td>Телефон</td>
@@ -42,9 +41,12 @@ const Contacts = () => {
                             </table>
                         </div>
                     </div>
-                    <div className='contacts_right-block'>
-                        <div className='contacts_right-block-img'>
-                            <img src={contacts} alt='Контакты' />
+                    <div className={styles.contacts_right_block}>
+                        <div className={styles.contacts_right_block_img}>
+                            <Image src='/images/contacts.png'
+                            width={650}
+                            height={450}
+                            />
                         </div>
                     </div>
                 </div>
