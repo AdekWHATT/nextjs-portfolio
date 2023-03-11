@@ -1,10 +1,8 @@
-.AboutMe {}
-
-.about_me-title {
+.about_me_title {
     margin-top: 60px;
 }
 
-.about_me-title h1 {
+.about_me_title h1 {
     font-weight: 400;
     font-size: 48px;
     color: var(--text-color);
@@ -12,7 +10,7 @@
     text-transform: uppercase;
 }
 
-.about_me--container {
+.about_me__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 350px);
@@ -25,7 +23,7 @@
     z-index: 3;
 }
 
-.about-me-item {
+.about_me_item {
     background: #2C2C2C;
     border-radius: 29px;
     overflow: hidden;
@@ -33,21 +31,16 @@
     transition: ease 0.5s;
 }
 
-.about-me-item:hover {
+.about_me_item:hover {
     box-shadow: 0px 4px 6px rgb(0 196 240 / 75%);
 }
 
-.about-me-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
-.about-me1 {
+.about_me1 {
     grid-area: about-me1;
 }
     
-.about-me2 {
+.about_me2 {
     grid-area: about-me2;
     font-weight: 300;
     font-size: 20px;
@@ -60,17 +53,17 @@
     overflow: hidden scroll;
 }
 
-.about-me2::-webkit-scrollbar {
+.about_me2::-webkit-scrollbar {
     width: 12px;
     /* ширина scrollbar */
 }
 
-.about-me2::-webkit-scrollbar-track {
+.about_me2::-webkit-scrollbar-track {
     background: transparent;
     border-radius: 10px;
 }
 
-.about-me2::-webkit-scrollbar-thumb {
+.about_me2::-webkit-scrollbar-thumb {
     /* цвет плашки */
     background-color: #00C4F0;
     /* закругления плашки */
@@ -78,20 +71,20 @@
 
 }
 
-.about-me3 {
+.about_me3 {
     grid-area: about-me3;
 }
 
 @media (max-width: 767px) { 
-    .about_me--container {
+    .about_me__container {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 350px);
         gap: 30px 30px;
         grid-template-areas:
-            "about-me2"
-            "about-me1"
-            "about-me3";
+            "about_me2"
+            "about_me1"
+            "about_me3";
         justify-content: center;
         position: relative;
         z-index: 3;

@@ -2,21 +2,21 @@
     margin-bottom: 125px;
 }
 
-.main-info__container {
+.main_info__container {
     display: flex;
     margin-top: 40px;
 }
 
-.main-info__description {
+.main_info__description {
     width: 40%;
 }
 
-.main-info__img {
+.main_info__img {
     width: 60%;
     position: relative;
 }
 
-.main-info__img-one {
+.main_info__img_one {
     position: absolute;
     right: 0;
     left: 0;
@@ -25,7 +25,7 @@
     margin: 0 auto;
 }
 
-.main-info__img-one::before {
+.main_info__img_one::before {
     content: '';
     position: absolute;
     border: 10px solid red;
@@ -33,7 +33,7 @@
     z-index: 3;
 }
 
-.main-info__img-two {
+.main_info__img_two {
     position: absolute;
     top: 50px;
     left: 0;
@@ -47,7 +47,7 @@
     margin: 0 auto;
 }
 
-.main-info__img-two::after {
+.main_info__img_two::after {
     content: url(/images/desc.png);
     position: absolute;
     z-index: 4;
@@ -55,14 +55,14 @@
     right: 0;
 }
 
-.main-info__description-hello span {
+.main_info__description_hello span {
     color: #00C4F0;
     font-size: 24px;
     text-transform: initial;
     cursor: default;
 }
 
-.main-info__description-hello h1 {
+.main_info__description_hello h1 {
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -75,7 +75,7 @@
     cursor: default;
 }
 
-.main-info__description-name h1 {
+.main_info__description_name h1 {
     width: 8ch;
     font-family: monospace;
     font-style: normal;
@@ -113,12 +113,12 @@
     }
 }
 
-.main-info__description-text {
+.main_info__description_text {
     margin-top: 25px;
     cursor: default;
 }
 
-.main-info__description-text span {
+.main_info__description_text span {
     font-style: normal;
     font-weight: 300;
     font-size: 21px;
@@ -127,11 +127,11 @@
     cursor: default;
 }
 
-.main-info__description-button {
+.main_info__description_button {
     margin-top: 25px;
 }
 
-.main-info__description-button__btn {
+.main_info__description_button__btn {
     border: none;
     cursor: pointer;
     padding: 14px 40px;
@@ -147,12 +147,12 @@
     text-decoration: none;
 }
 
-.main-info__description-button__btn:hover {
+.main_info__description_button__btn:hover {
     background: linear-gradient(87.32deg, #E29500 4.47%, #E2A300 95.53%);
 }
 
 /* Модальное окно*/
-.modal-window {
+.modal_window {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -164,7 +164,7 @@
     transition: opacity 0.5s;
 }
 
-.fade-layer {
+.fade_layer {
     position: fixed;
     top: 0;
     left: 0;
@@ -176,27 +176,27 @@
 }
 
 @media (max-width: 1199px) {
-    .main-info__description-hello h1 {
+    .main_info__description-hello h1 {
         font-size: 36px !important;
     }
 
-    .main-info__description-name h1 {
+    .main_info__description-name h1 {
         font-size: 54px !important;
     }
 
-    .main-info__description-text span {
+    .main_info__description-text span {
         font-size: 22px !important;
     }
 
-    .main-info__img {
+    .main_info__img {
         display: none;
     }
 
-    .main-info__description-hello h1 {
+    .main_info__description-hello h1 {
         margin-top: 0 !important;
     }
 
-    .main-info__description {
+    .main_info__description {
         width: 100% !important;
         text-align: center !important;
         display: flex !important;

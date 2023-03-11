@@ -1,10 +1,9 @@
 import { useEffect, useRef } from 'react';
 import Slider from 'react-slick';
 import { useRouter } from 'next/router';
-import './Certificates.css';
+import styles from './Certificates.module.css';
 import Image from 'next/image';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 
 const Certificates = () => {
     const settings = {
@@ -25,20 +24,23 @@ const Certificates = () => {
         }
     }, [router.asPath]);
     return (
-        <div ref={myBlockRef} id="certificates" className='Certificates'>
+        <div ref={myBlockRef} id="certificates" className={styles.Certificates}>
             <div className='container'>
                 <div className='cert-title'>
                     <h1>сертификаты</h1>
                 </div>
                 <Slider {...settings}>
                     <div className='certificates__item'>
-                        <Image src="/images/certificates/content-m.png" alt="Сертификат Битрикс"></Image>
+                        <Image src="/images/certificates/content-m.png" width={100}
+                    height={100} alt="Сертификат Битрикс"></Image>
                     </div>
                     <div className='certificates__item'>
-                        <Image src="/images/certificates/webmimo.png" alt="Сертификат Мимо"></Image>
+                        <Image src="/images/certificates/webmimo.png" width={100}
+                    height={100} alt="Сертификат Мимо"></Image>
                     </div>
                     <div className='certificates__item'>
-                    <Image src="/images/certificates/admin.png" alt="Сертификат Битрикс"></Image>
+                    <Image src="/images/certificates/admin.png" width={100}
+                    height={100} alt="Сертификат Битрикс"></Image>
                     </div>
                 </Slider>
 

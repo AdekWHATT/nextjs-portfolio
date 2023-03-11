@@ -4,14 +4,14 @@
     padding: 100px 0;
 }
 
-.dev-cards_container {
+.dev_cards_container {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.dev-cards__item {
+.dev_cards__item {
     width: 260px;
     height: 260px;
     padding: 0 15px;
@@ -27,18 +27,18 @@
     cursor: default;
 }
 
-.dev-cards__item:hover {
+.dev_cards__item:hover {
     box-shadow: 0px 4px 6px rgb(0 196 240 / 75%);
 }
 
-.dev-cards__item span {
+.dev_cards__item span {
     font-weight: 300;
     font-size: 24px;
     line-height: 25px;
     color: #E4E4E4;
 }
 
-.dev-cards__img-wrapper {
+.dev_cards__img_wrapper {
     height: 75px;
     display: flex;
     align-items: center;
