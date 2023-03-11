@@ -8,7 +8,7 @@ const PortfolioPage = () => {
         <>
             <Head>
                 <title>
-                    Мои проекты и технологии
+                    Мои проекты | Технологии
                 </title>
                 <meta name="keywords" content="Портфолио Web разработчика Килин В.А" />
         <meta name="description" content="создание сайтов интернет реакт react reactjs nextjs nodejs bootstrap chatgtp figma flexby html5 css3 javascript" />

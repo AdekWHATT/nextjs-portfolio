@@ -1,6 +1,5 @@
 {
   "private": true,
-  "homepage": "https://adekwhatt.github.io/nextjs-portfolio/",
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
