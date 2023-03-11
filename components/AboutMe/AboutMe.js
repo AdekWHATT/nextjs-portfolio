@@ -23,7 +23,7 @@ const AboutMe = () => {
                     <div className={`${styles.about_me_item} ${styles.about_me1}`}><Image src="/images/about/about1.png"
                         width={645}
                         height={350}
-                        responsive
+                        alt='Обо мне'
                     /></div>
                     <div className={`${styles.about_me_item} ${styles.about_me2}`}><span style={{
                         display: 'block',
@@ -52,7 +52,7 @@ const AboutMe = () => {
                             Буду рад ответить на любые вопросы и обсудить детали сотрудничества с Вами.</span>
                     </div>
                     <div className={`${styles.about_me_item} ${styles.about_me3}`}><Image src="/images/about/about2.png" width={645}
-                        height={350} responsive/></div>
+                        height={350} alt='Обо мне'/></div>
                 </div>
 
             </div>

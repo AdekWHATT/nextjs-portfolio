@@ -27,7 +27,7 @@ const MainInfo = () => {
             </div>
           </div>
           <div className={styles.main_info__img}>
-            <Image src="/images/my-2.png" width={449} height={616} className={styles.main_info__img_one} alt="Мое Фото"></Image>
+            <Image src="/images/my-2.png" width={449} height={616} className={styles.main_info__img_one} alt="Мое Фото" priority={true}></Image>
             <div className={styles.main_info__img_two}></div>
           </div>
         </div>
