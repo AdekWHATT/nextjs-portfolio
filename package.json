@@ -1,9 +1,11 @@
 {
   "private": true,
+  "homepage": "https://AdekWHATT.github.io/adekwhatt",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "npm run build && gh-pages -d out"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
